@@ -1,8 +1,28 @@
 aid: comprehend
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/comprehend.png
 name: Comprehend
-description: Comprehend is a company surfaced as a portfolio company of lightspeed-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Comprehend Systems, Inc. was a clinical-trials software company that built
+  SaaS analytics for the life-sciences industry. Its flagship product,
+  Comprehend Clinical, let clinical data managers and executives monitor
+  studies and make real-time decisions across multiple source systems without
+  moving the underlying data. The company raised a Lightspeed Venture Partners
+  Series B in 2014 and was acquired by Saama Technologies in 2019, after which
+  the standalone Comprehend product and the comprehend.com domain were retired.
+  This API Evangelist profile is a Lightspeed portfolio lead; the company is
+  defunct as an independent entity and publishes no live developer portal,
+  API, documentation, or SDKs.
 url: https://raw.githubusercontent.com/api-evangelist/comprehend/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +30,35 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: saama
+x-acquired-year: 2019
+x-former-website: https://comprehend.com
+x-api-provider: false
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Clinical Trials
+- Healthcare
+- Life Sciences
+- Clinical Data Management
+- Analytics
+- SaaS
+- Acquired
 apis: []
+common:
+- type: VentureCapital
+  name: Backed by Lightspeed Venture Partners
+  url: https://lsvp.com/company/comprehend/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
